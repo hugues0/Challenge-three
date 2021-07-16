@@ -7,5 +7,5 @@ const app = express()
 app.use(cors())
 app.use('/api/v1', route)
 
-const port = 3000;
+const port = 10000;
 app.listen(port,() => console.log(`App listening on port ${port}`));
