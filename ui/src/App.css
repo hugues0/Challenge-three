@@ -65,7 +65,7 @@
   height: 300px;
 }
 
-.content-holder {
+.content-wrapper {
   width: 80%;
   margin: 0 auto;
   justify-content: center;
@@ -81,6 +81,10 @@
   color: black;
   background-color: #D5F5E3;
   font-size: 16px
+}
+
+.input-box:active {
+  background-color: #D5F5E3;
 }
 
 @keyframes App-logo-spin {
