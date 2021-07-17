@@ -18,7 +18,7 @@ class App extends React.Component {
   onClickHandle = async (albumId) => {
     this.setState({ isLoading: true });
     const response = await axios.get(
-      `https://challenge-three-bknd.herokuapp.com//api/v1/album/${albumId}`
+      `https://challenge-three-bknd.herokuapp.com/api/v1/album/${albumId}`
     );
     console.log(response);
     const data = await response.data.response;
